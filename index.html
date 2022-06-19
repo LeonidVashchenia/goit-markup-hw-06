@@ -456,9 +456,15 @@
           <textarea class="modal-text" name="coment" id="coment" rows="10" placeholder="Введіть текст"></textarea>
         </div>
         <div class="form-checkbox">
-          <input type="checkbox" name="license" id="license">
-          <label for="license">Погоджуюсь на розсилку та приймаю
-            <a href="">Умови договору</a>
+          <input class="modal-check" type="checkbox" name="license" id="license">
+          <label class="check-text" for="license">
+            <span>
+              <svg class="icon-check" width="16" height="15">
+                <use href="./images/icons.svg#vector"></use>
+              </svg>
+            </span>
+            Погоджуюсь на розсилку та приймаю
+            <a class="modal-license" href="">Умови договору</a>
           </label>
         </div>
         <button type="submit" class="btn">Відправити</button>

@@ -226,6 +226,7 @@ img {
   color: var(--bkc-primary-color);
   background-color: var(--brand-primary-color);
   border-radius: 4px;
+  outline: none;
   border: none;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -884,11 +885,35 @@ img {
   margin-bottom: 4px;
 }
 
-.modal-input:focus,
-.modal-input:hover {
+.check-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  display: flex;
+}
+
+.check-text span {
+  width: 16px;
+  height: 15px;
+  border: 2px solid var(--brand-second-color);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-check {
+  background-color: red;
+}
+
+.modal-license {
+  color: var(--brand-primary-color);
+}
+
+.modal-input:focus {
   border-color: var(--btn-hover);
 }
 
-.input-wrap:focus .icon-modal {
+.modal-input:focus+.icon-modal {
   fill: var(--btn-hover);
 }
