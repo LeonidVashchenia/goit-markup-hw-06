@@ -901,7 +901,7 @@ img {
   height: 15px;
   border: 2px solid var(--brand-second-color);
   border-radius: 3px;
-  margin-right: 3px;
+  margin-right: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -910,6 +910,7 @@ img {
 
 .check-text {
   display: flex;
+  align-items: center;
   margin-top: 20px;
   font-size: 14px;
   line-height: 1.71;
